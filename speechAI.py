@@ -137,14 +137,15 @@ class speechAI:
         else:
             return "MAX ATTEMPTS REACHED"
 
-DB = input("DB: ")
-AI = speechAI(DB)
-while(True):
-    try:
-        print("Sample sentence:", AI.make_Sent())
-        time.sleep(2)
-    except:
-        input("PAUSED. PRESS ENTER TO RESUME.")
+if __name__ == "__main__":
+    DB = input("DB: ")
+    AI = speechAI(DB)
+    while(True):
+        try:
+            print("Sample sentence:", AI.make_Sent())
+            time.sleep(2)
+        except:
+            input("PAUSED. PRESS ENTER TO RESUME.")
 
 
         
