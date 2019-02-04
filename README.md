@@ -1,4 +1,4 @@
-# Chat-bot
+# News-Headlines-Creator
 
 This was demoed to some of my students while I was a TA at IUPUI.
 
